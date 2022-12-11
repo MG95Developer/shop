@@ -3,7 +3,12 @@ import React from 'react'
 const Footer = () =>
 {
     return (
-        <div>Footer</div>
+        <>
+            <div className='text-center py-5'>
+                <p className='my-1'>Portfolio Project <span className='mx-1'>|</span> No Right Reserved.</p>
+                <p className='my-1'>Image Credits: Zara Home</p>
+            </div>
+        </>
     )
 }
 
